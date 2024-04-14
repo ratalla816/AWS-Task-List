@@ -1,4 +1,4 @@
-import express from 'express';
+import express from "express";
 import serverless from "serverless-http";
 import cors from "cors"; 
 // Only allow cors when developing locally //
@@ -66,7 +66,7 @@ if (process.env.DEVELOPMENT) {
   
   if (process.env.DEVELOPMENT) {
     app.listen(port, () => {
-      console.log(`Example app listening on port ${port}`);
+      console.log(`AWS-Task-List listening on port ${port}`);
     });
   }
   
