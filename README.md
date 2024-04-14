@@ -38,6 +38,8 @@
 
   ## Deployment
 
+  * Backend: https://4zxmpnvtspsagr2afoziwyz6sq0uxyhp.lambda-url.us-east-2.on.aws/
+  * UI: https://main.d2b20auuux8ehi.amplifyapp.com/
  
  
   
