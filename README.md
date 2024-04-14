@@ -1,14 +1,14 @@
-# AWS-Task-List
+# AWS-AWS-Task-List
 
-  ![badge](https://img.shields.io/github/languages/top/ratalla816/task-list)
+  ![badge](https://img.shields.io/github/languages/top/ratalla816/AWS-Task-List)
   <br> 
-  ![badge](https://img.shields.io/github/languages/count/ratalla816/task-list)
+  ![badge](https://img.shields.io/github/languages/count/ratalla816/AWS-Task-List)
   <br>
-  ![badge](https://img.shields.io/github/issues/ratalla816/task-list)
+  ![badge](https://img.shields.io/github/issues/ratalla816/AWS-Task-List)
   <br>
-  ![badge](https://img.shields.io/github/issues-closed/ratalla816/task-list)
+  ![badge](https://img.shields.io/github/issues-closed/ratalla816/AWS-Task-List)
   <br>
-  ![badge](https://img.shields.io/github/last-commit/ratalla816/task-list)
+  ![badge](https://img.shields.io/github/last-commit/ratalla816/AWS-Task-List)
   <br>
   ![badge](https://img.shields.io/badge/license-MIT-important)
   
