@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import { UpdateTaskForm } from "./UpdateTaskForm";
 import classnames from "classnames";
 import axios from "axios";
-import { API_URL } from "../utils";
+import { API_URL } from "../utils.js";
 
 export const Task = ({ task, fetchTasks }) => {
   const { id, name, completed } = task;
