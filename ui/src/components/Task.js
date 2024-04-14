@@ -4,8 +4,8 @@ import EditIcon from "@mui/icons-material/Edit";
 import React, { useState } from "react";
 import { UpdateTaskForm } from "./UpdateTaskForm";
 import classnames from "classnames";
-import { API_URL } from "../utils";
 import axios from "axios";
+import { API_URL } from "../utils";
 
 export const Task = ({task, fetchTasks}) => {
     const { id, name, completed } = task;
@@ -20,6 +20,7 @@ export const Task = ({task, fetchTasks}) => {
                 name, 
                 completed: !isComplete, // the opposite of whatever is actually completed! //
             });
+            
           setIsComplete((prev) => !prev);
    
         } catch (err) { 
