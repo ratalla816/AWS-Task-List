@@ -1,4 +1,4 @@
-# AWS-AWS-Task-List
+# AWS-Task-List
 
   ![badge](https://img.shields.io/github/languages/top/ratalla816/AWS-Task-List)
   <br> 
