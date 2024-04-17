@@ -64,7 +64,7 @@ app.delete("/task/:id", async (req, res) => {
 
 if (process.env.DEVELOPMENT) {
   app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`);
+    console.log(`AWS Task-List listening on port ${port}`);
   });
 }
 
