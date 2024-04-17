@@ -8,23 +8,7 @@ import {
 } from "@aws-sdk/lib-dynamodb";
 import crypto from "crypto";
 
-import { DynamoDBClient, ListTablesCommand } from "@aws-sdk/client-dynamodb"; 
-//  ES Modules import
-const { DynamoDBClient, ListTablesCommand } = require("@aws-sdk/client-dynamodb"); // CommonJS import
-const input = {  ListTablesInput,
-  ExclusiveStartTableName: "STRING_VALUE",
-  Limit: Number("int"),
-};
-const command = new ListTablesCommand(input);
-const response = await client.send(command);
-// {  ListTablesOutput
-//   TableNames: [ // TableNameList
-//     "STRING_VALUE",
-//   ],
-//   LastEvaluatedTableName: "STRING_VALUE",
-// };
-
-const client = new DynamoDBClient({ region: "us-east-2" });
+const client = new DynamoDBClient({ region: "us-west-1" });
 const docClient = DynamoDBDocumentClient.from(client);
 
 export const fetchTasks = async () => {
