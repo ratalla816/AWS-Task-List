@@ -18,61 +18,118 @@
   </a>
 </p>
   
-  ## Description
+## Description
 
-Creating the React Frontend: Immerse yourself in the world of React development as we craft a dynamic and adaptable user interface. Gain valuable insights on organizing your components and effectively managing state using React hooks.
+A simple to use web application that allows users to create a to-do list by adding tasks that can be edited and deleted - Updates to the task list persist as objects in a nonrelational database. 
+<br>
+<br>
+**Well Architected Framework - Loose Coupling**
+<br>
+Front and backend interdependencies are limited by allowing the components to interact only through specific interfaces.
+<br>
+This is accomplished by Leveraging AWS Services - Lambda for serverless functions to host the API, Amplify hosts the frontend, and database management via DynamoDB.
 
-Crafting the Node.js Backend: Delve into the backend realm with Node.js as we construct a robust API to handle data requests from our React frontend. We'll utilize Express.js to streamline the process.
-
-Leveraging AWS Services: Discover the capabilities of AWS by seamlessly integrating services such as Lambda for serverless functions to host our API, Amplify for hosting our frontend, and DynamoDB for managing our database.
-
-Deploying Your Application: Follow our step-by-step guide as we deploy our full-stack application to AWS. We utilize cost-effective services, making it virtually free to host our application. (You may incur minimal charges, typically just a few cents.)
 
 ### ⚙️ Technologies
 
 **React.js | Material UI | Node.js | Express.js | AWS Amplify | AWS Lambda | AWS DynamoDB**
- 
+
+* The frontend is built with React and Material UI and was deployed in seconds using AWS Amplify.  
+* Requests from the React frontend are handled via a backend API constructed and deployed using Node.js, Express.js and AWS Lambda.
+* Serverless Object storage is handled using DynamoDB. 
+
  
   ## Table of Contents
   - [Description](#description)
-  - [Technologies](#technologies)
   - [Documentation](#documentation)
   - [Deployment](#deployment)
   - [Screenshot](#screenshot)
-  - [Features](#features)
   - [Acknowledgements](#acknowledgements)
   - [License](#license)
   - [Contact](#contact)
 
   ## Documentation
   
+### React:
+* Documentation
+<br> 
+https://react.dev/reference/react
 
+### Material UI
+* Installation
+<br>
+https://mui.com/material-ui/getting-started/installation/
+<br>
+<br>
+* Icons
+<br>
+https://mui.com/material-ui/material-icons/
 
-  ## Deployment
+### Node
+* Documentation
+<br>
+https://nodejs.org/docs/latest/api/
 
-   * Frontend: https://main.d2b20auuux8ehi.amplifyapp.com/
-   
-   * Backend: https://64ithvdxrzwofic4apqy7obq7m0yhppc.lambda-url.us-east-1.on.aws/task
-  
-  
+### Express:
+* Getting Started
+<br>
+https://expressjs.com/en/starter/installing.html
+
+### AWS Amplify
+* User guide
+<br>
+https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html
+
+### AWS Lambda
+* Developer Guide
+<br>
+https://docs.aws.amazon.com/lambda/latest/dg/welcome.html
+<br>
+<br>
+* API Reference
+<br>
+https://docs.aws.amazon.com/lambda/latest/api/welcome.html
+<br>
+<br>
+* Operator Guide
+<br>
+https://docs.aws.amazon.com/lambda/latest/operatorguide/intro.html
+
+### DynamoDB CRUD functions:
+* Create
+<br>
+https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/example_dynamodb_PutItem_section.html
+<br>
+<br>
+* Read
+<br>
+https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/example_dynamodb_Scan_section.html
+<br>
+<br>
+* Update
+<br>
+https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/example_dynamodb_UpdateItem_section.html
+<br>
+<br>
+* Delete
+<br>
+https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/example_dynamodb_DeleteItem_section.html
+
+## Deployment
+
+   * The frontend is deployed with AWS Amplify: https://main.d2b20auuux8ehi.amplifyapp.com/
+   <br>   
+   * Backend: https://64ithvdxrzwofic4apqy7obq7m0yhppc.lambda-url.us-east-1.on.aws/task 
  
  
   
   ## Screenshot
-  ![Screenshot](./assets/images/.png)
-  <br>
-  <br>
-  ![Screenshot](./assets/images/.png)
+  ![Screenshot](./assets/images/CRUD.gif)
   
   
-  ## Features
- 
-
- 
-
   ## Acknowledgements
   
-  * 
+  * Build and Deploy FullStack React App on AWS: https://www.youtube.com/watch?v=FHn8c4Rk_yo
     
   ## License
   ![badge](https://img.shields.io/badge/license-MIT-important)
