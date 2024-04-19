@@ -49,13 +49,13 @@ This is accomplished by Leveraging AWS Services - Lambda for serverless function
   - [Contact](#contact)
 
   ## Documentation
-  
-#### React:
+  **React** 
 * Documentation
 <br> 
 https://react.dev/reference/react
-
-#### Material UI
+<br>
+<br>
+**Material UI**
 * Installation
 <br>
 https://mui.com/material-ui/getting-started/installation/
@@ -64,23 +64,28 @@ https://mui.com/material-ui/getting-started/installation/
 * Icons
 <br>
 https://mui.com/material-ui/material-icons/
-
-#### Node
+<br>
+<br>
+**Node**
 * Documentation
 <br>
 https://nodejs.org/docs/latest/api/
-
-#### Express:
+<br>
+<br>
+**Express**
+<br>
 * Getting Started
 <br>
 https://expressjs.com/en/starter/installing.html
-
-#### AWS Amplify
+<br>
+<br>
+**AWS Amplify**
 * User guide
 <br>
 https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html
-
-#### AWS Lambda
+<br>
+<br>
+**AWS Lambda**
 * Developer Guide
 <br>
 https://docs.aws.amazon.com/lambda/latest/dg/welcome.html
@@ -94,8 +99,9 @@ https://docs.aws.amazon.com/lambda/latest/api/welcome.html
 * Operator Guide
 <br>
 https://docs.aws.amazon.com/lambda/latest/operatorguide/intro.html
-
-#### DynamoDB CRUD functions:
+<br>
+<br>
+**DynamoDB CRUD functions**
 * Create
 <br>
 https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/example_dynamodb_PutItem_section.html
