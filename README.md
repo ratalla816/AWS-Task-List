@@ -49,77 +49,34 @@ This is accomplished by Leveraging AWS Services - Lambda for serverless function
   - [Contact](#contact)
 
   ## Documentation
-  **React** 
-* Documentation
-<br> 
-https://react.dev/reference/react
+  
+* React<br>
+Documentation: https://react.dev/reference/react
+
+* Material UI<br>
+Installation: https://mui.com/material-ui/getting-started/installation/
 <br>
-<br>
-**Material UI**
-* Installation
-<br>
-https://mui.com/material-ui/getting-started/installation/
-<br>
-<br>
-* Icons
-<br>
-https://mui.com/material-ui/material-icons/
-<br>
-<br>
-**Node**
-* Documentation
-<br>
-https://nodejs.org/docs/latest/api/
-<br>
-<br>
-**Express**
-<br>
-* Getting Started
-<br>
-https://expressjs.com/en/starter/installing.html
-<br>
-<br>
-**AWS Amplify**
-* User guide
-<br>
-https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html
-<br>
-<br>
-**AWS Lambda**
-* Developer Guide
-<br>
-https://docs.aws.amazon.com/lambda/latest/dg/welcome.html
-<br>
-<br>
-* API Reference
-<br>
-https://docs.aws.amazon.com/lambda/latest/api/welcome.html
-<br>
-<br>
-* Operator Guide
-<br>
-https://docs.aws.amazon.com/lambda/latest/operatorguide/intro.html
-<br>
-<br>
-**DynamoDB CRUD functions**
-* Create
-<br>
-https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/example_dynamodb_PutItem_section.html
-<br>
-<br>
-* Read
-<br>
-https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/example_dynamodb_Scan_section.html
-<br>
-<br>
-* Update
-<br>
-https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/example_dynamodb_UpdateItem_section.html
-<br>
-<br>
-* Delete
-<br>
-https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/example_dynamodb_DeleteItem_section.html
+Icons: https://mui.com/material-ui/material-icons/
+
+* Node<br>
+Documentation: https://nodejs.org/docs/latest/api/
+
+* Express<br>
+Getting Started: https://expressjs.com/en/starter/installing.html
+
+* AWS Amplify<br>
+User guide: https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html
+
+* AWS Lambda<br>
+Developer Guide: https://docs.aws.amazon.com/lambda/latest/dg/welcome.html<br>
+API Reference: https://docs.aws.amazon.com/lambda/latest/api/welcome.html<br>
+Operator Guide: https://docs.aws.amazon.com/lambda/latest/operatorguide/intro.html
+
+* DynamoDB CRUD functions<br>
+Create: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/example_dynamodb_PutItem_section.html<br>
+Read: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/example_dynamodb_Scan_section.html<br>
+Update https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/example_dynamodb_UpdateItem_section.html<br>
+Delete https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/example_dynamodb_DeleteItem_section.html
 
 ## Deployment
 
