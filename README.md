@@ -54,8 +54,7 @@ This is accomplished by Leveraging AWS Services - Lambda for serverless function
 Documentation: https://react.dev/reference/react
 
 * Material UI<br>
-Installation: https://mui.com/material-ui/getting-started/installation/
-<br>
+Installation: https://mui.com/material-ui/getting-started/installation/<br>
 Icons: https://mui.com/material-ui/material-icons/
 
 * Node<br>
@@ -75,8 +74,8 @@ Operator Guide: https://docs.aws.amazon.com/lambda/latest/operatorguide/intro.ht
 * DynamoDB CRUD functions<br>
 Create: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/example_dynamodb_PutItem_section.html<br>
 Read: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/example_dynamodb_Scan_section.html<br>
-Update https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/example_dynamodb_UpdateItem_section.html<br>
-Delete https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/example_dynamodb_DeleteItem_section.html
+Update: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/example_dynamodb_UpdateItem_section.html<br>
+Delete: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/example_dynamodb_DeleteItem_section.html
 
 ## Deployment
 
