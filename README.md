@@ -36,7 +36,7 @@ This is accomplished by Leveraging AWS Services - Lambda for serverless function
 
 * The frontend is built with React and Material UI and was deployed in seconds using AWS Amplify.  
 * Requests from the React frontend are handled via a backend API constructed and deployed using Node.js, Express.js and AWS Lambda.
-* Serverless Object storage is handled using DynamoDB. 
+* Serverless data storage is handled using DynamoDB. 
 
  
   ## Table of Contents
